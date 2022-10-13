@@ -58,7 +58,7 @@ This demo was created while working on [blockprotocol/blockprotocol](https://git
     yarn workspace web-app dev
     ```
 
-    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Open [localhost:3000](http://localhost:3000) and [localhost:3000/api/wasm-package-answer](http://localhost:3000/api/wasm-package-answer) to see the result.
 
     ***
 
