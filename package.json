@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "wasm-package",
+      "web-app"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "replace-in-file": "^6.3.5"
+  },
+  "packageManager": "yarn@4.0.0-rc.25",
+  "resolutions": {
+    "jest-runtime@npm:^29.1.2": "patch:jest-runtime@npm%3A29.1.2#~/.yarn/patches/jest-runtime-npm-29.1.2-567b60ffd5.patch"
+  }
+}

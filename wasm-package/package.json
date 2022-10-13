@@ -1,0 +1,14 @@
+{
+  "name": "wasm-package",
+  "version": "0.0.0-local",
+  "files": [
+    "wasm_package_bg.wasm",
+    "wasm_package.js",
+    "wasm_package_bg.js",
+    "wasm_package.d.ts"
+  ],
+  "type": "module",
+  "main": "wasm_package.js",
+  "types": "wasm_package.d.ts",
+  "sideEffects": false
+}
