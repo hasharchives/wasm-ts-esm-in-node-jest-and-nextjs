@@ -50,6 +50,8 @@ This demo was created while working on [blockprotocol/blockprotocol](https://git
     yarn workspace web-app test
     ```
 
+    For built-in support of WASM in Jest see [facebook/jest#11011 (comment)](https://github.com/facebook/jest/issues/11011#issuecomment-1278111232).
+
 1.  🎉 Run Next.js dev server and check if `wasm-package` works there too:
 
     ```sh
