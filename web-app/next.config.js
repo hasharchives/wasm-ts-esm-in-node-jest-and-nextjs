@@ -6,6 +6,10 @@ export default {
     // https://github.com/vercel/next.js/issues/32612#issuecomment-1082704675
     return {
       ...webpackConfig,
+      experiments: {
+        asyncWebAssembly: true,
+        layers: true,
+      },
       optimization: {
         ...webpackConfig.optimization,
         moduleIds: "named",
@@ -15,10 +19,6 @@ export default {
         webassemblyModuleFilename: isServer
           ? "./../static/wasm/[modulehash].wasm"
           : "static/wasm/[modulehash].wasm",
-      },
-      experiments: {
-        asyncWebAssembly: true,
-        layers: true,
       },
     };
   },
