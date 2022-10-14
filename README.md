@@ -38,6 +38,8 @@ The demo was created while working on [blockprotocol/blockprotocol](https://gith
     rm wasm-package/.gitignore
     ```
 
+    This step won’t be necessary when [rustwasm/wasm-pack#1061](https://github.com/rustwasm/wasm-pack/pull/1061) is merged and released.
+
 1.  🎉 Run a Node.js script that uses the `wasm-package`:
 
     ```sh
