@@ -41,7 +41,7 @@ The demo was created while working on [blockprotocol/blockprotocol](https://gith
 1.  🎉 Run a Node.js script that uses the `wasm-package`:
 
     ```sh
-    yarn workspace web-app exe scripts/wasm-package-demo.ts
+    yarn workspace web-app exe scripts/wasm-package-answer.ts
     ```
 
 1.  🎉 Run unit tests ([patched](./.yarn/patches) Jest) referring to the `wasm-package`:
