@@ -62,14 +62,14 @@ This demo was created while working on [blockprotocol/blockprotocol](https://git
 
     ***
 
-1.  🚨 Build and run the production version Next.js app:
+1.  ⚠️ Build and run the production version Next.js app:
 
     ```sh
     yarn workspace web-app build
     yarn workspace web-app start
     ```
 
-    > 🚨 `build` is broken as of Next 12.3.1 or Next 12.3.2-canary.27.
-    > Seems like Next.js does not like wasm imports in SSR page code.
-    > Using wasm in a client-only [dynamic import](https://nextjs.org/docs/advanced-features/dynamic-import) works.
-    > Bug report pending.
+    > ⚠️ I could not get WASM working in API routes.
+    > Requesting [localhost:3000/api/wasm-package-answer](http://localhost:3000/api/wasm-package-answer) returns `Internal Server Error`.
+    >
+    > Upstream discussion: [vercel/next.js#29362 (comment)](https://github.com/vercel/next.js/issues/29362#issuecomment-1278868452).
