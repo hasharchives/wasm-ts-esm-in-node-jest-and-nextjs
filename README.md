@@ -1,9 +1,9 @@
 # WASM + TypeScript + ESM in Node.js, Jest and Next.js
 
-This demo contains a web app that depends on an NPM package with [WASM](https://webassembly.org/), TypeScript and native ESModules.
-WASM code is successfully used in a Node.js script, a Jest test and a Next.js app with a page and an API route.
+This repo contains a web app that depends on an NPM package with [WASM](https://webassembly.org/), TypeScript and native ESModules.
+WASM code is successfully used in a Node.js script, a Jest test and a Next.js app within a page and an API route.
 
-This demo was created while working on [blockprotocol/blockprotocol](https://github.com/blockprotocol/blockprotocol) and [hashintel/hash](https://github.com/hashintel/hash).
+The demo was created while working on [blockprotocol/blockprotocol](https://github.com/blockprotocol/blockprotocol) and [hashintel/hash](https://github.com/hashintel/hash).
 
 ## Prerequisites
 
@@ -62,7 +62,7 @@ This demo was created while working on [blockprotocol/blockprotocol](https://git
 
     ***
 
-1.  ⚠️ Build and run the production version Next.js app:
+1.  ⚠️ Build and run production Next.js app:
 
     ```sh
     yarn workspace web-app build
