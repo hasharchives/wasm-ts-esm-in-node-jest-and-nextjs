@@ -46,13 +46,13 @@ The demo was created while working on [blockprotocol/blockprotocol](https://gith
     yarn workspace web-app exe scripts/wasm-package-answer.ts
     ```
 
-1.  🎉 Run unit tests ([patched](./.yarn/patches) Jest) referring to the `wasm-package`:
+1.  🎉 Run unit tests referring to the `wasm-package`:
 
     ```sh
     yarn workspace web-app test
     ```
 
-    For built-in support of WASM in Jest see [facebook/jest#11011 (comment)](https://github.com/facebook/jest/issues/11011#issuecomment-1278111232).
+    Needs Jest `>=29.3.0`, see [facebook/jest#13505](https://github.com/facebook/jest/pull/13505).
 
 1.  🎉 Run Next.js dev server and check if `wasm-package` works there too:
 
