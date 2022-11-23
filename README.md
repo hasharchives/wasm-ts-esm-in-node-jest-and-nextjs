@@ -62,16 +62,11 @@ The demo was created while working on [blockprotocol/blockprotocol](https://gith
 
     Open [localhost:3000](http://localhost:3000) and [localhost:3000/api/wasm-package-answer](http://localhost:3000/api/wasm-package-answer) to see the result.
 
-    ***
+    ⚠️ Note the [workaround](https://github.com/vercel/next.js/issues/29362#issuecomment-971377869) in [web-app/next.config.js](web-app/next.config.js).
 
-1.  ⚠️ Build and run production Next.js app:
+1.  🎉 Build and run production Next.js app:
 
     ```sh
     yarn workspace web-app build
     yarn workspace web-app start
     ```
-
-    > ⚠️ I could not get WASM working in API routes.
-    > Requesting [localhost:3000/api/wasm-package-answer](http://localhost:3000/api/wasm-package-answer) returns `Internal Server Error`.
-    >
-    > Upstream discussion: [vercel/next.js#29362 (comment)](https://github.com/vercel/next.js/issues/29362#issuecomment-1278868452).
